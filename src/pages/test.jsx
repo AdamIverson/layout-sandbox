@@ -1,8 +1,13 @@
 import React from 'react'
+import Card from './Card'
   
 const Test = () => {
+  const topic = 'TEST'
+
   return (
-    <div>This is a dummy page</div>
+    <div>
+      <Card topic={topic}/>
+    </div>
   )
 }
   
