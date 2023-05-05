@@ -1,12 +1,12 @@
 import React from 'react'
 import Card from './Card'
-  
-const Test = () => {
-  const topic = 'TEST'
+import styles from '@/styles/Test.module.css'
+
+const Test = ({ page }) => {
 
   return (
-    <div>
-      <Card topic={topic}/>
+    <div className={styles.test}>
+      <Card topic={page}/>
     </div>
   )
 }
