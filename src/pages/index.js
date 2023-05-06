@@ -1,11 +1,11 @@
 import React from 'react'
 import Link from 'next/link'
-// import About from './About'
+import Card from './Card'
 
 const HomePage = () => {
 	return (
 		<div>
-			<h1>Home Page</h1>
+			<Card topic="home" />
 			<div>
 				<Link href="/test">Test</Link>
 			</div>
