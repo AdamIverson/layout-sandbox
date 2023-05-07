@@ -12,6 +12,9 @@ const HomePage = () => {
 			<div>
 				<Link href="/About">About</Link>
 			</div>
+			<div>
+				<Link href="https://www.letshireadamiverson.com/">Resume</Link>
+			</div>
 		</div>
 	)
 }
