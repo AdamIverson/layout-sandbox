@@ -7,14 +7,20 @@ const HomePage = () => {
 		<div>
 			<Card topic="home" />
 			<div>
-				<Link href="/test">Test</Link>
-			</div>
-			<div>
 				<Link href="/About">About</Link>
 			</div>
 			<div>
-				<Link href="https://www.letshireadamiverson.com/">Resume</Link>
+				<Link href="https://adamiverson.github.io/">Resume</Link>
 			</div>
+			<div>
+				<Link href="http://www.adamiversonphotography.com/">Photography</Link>
+			</div>
+			<div>
+				<Link href="https://www.mcsweeneys.net/articles/things-my-girlfriend-did-not-say-after-i-told-her-that-i-sometimes-feel-stuck">Author</Link>
+			</div>
+			{/* <div>
+				<Link href="https://www.letshireadamiverson.com/">let's hire</Link>
+			</div> */}
 		</div>
 	)
 }

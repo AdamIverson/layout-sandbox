@@ -5,7 +5,8 @@ import styles from './About.module.css'
 const About = () => {
   return(
     <div className={styles.pagetitle}>
-      <Card topic="about" />
+      <h1>aboot</h1>
+      <p>ten feet tall and bulletproof</p>
     </div>
   )
 }
