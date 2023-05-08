@@ -4,7 +4,7 @@ import Link from "next/link";
 const Author = () => {
   return (
     <div>
-      <h1>Author page</h1>
+      <h1>publications</h1>
       <ul>
         <li>
           <h2>Dont Fall In Love With The City</h2>

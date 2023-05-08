@@ -16,7 +16,7 @@ const HomePage = () => {
 				<Link href="http://www.adamiversonphotography.com/">Photography</Link>
 			</div>
 			<div>
-				<Link href="/Author">Author</Link>
+				<Link href="/Author">publications</Link>
 			</div>
 			<div>
 			<Link href="/Developer">Developer Projects</Link>
