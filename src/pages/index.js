@@ -18,6 +18,9 @@ const HomePage = () => {
 			<div>
 				<Link href="/Author">Author</Link>
 			</div>
+			<div>
+			<Link href="/Developer">Developer Projects</Link>
+			</div>
 			{/* <div>
 				<Link href="https://www.letshireadamiverson.com/">let's hire</Link>
 			</div> */}
