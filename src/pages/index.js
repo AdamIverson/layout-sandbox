@@ -1,11 +1,9 @@
 import React from 'react'
 import Link from 'next/link'
-import Card from './Card'
 
 const HomePage = () => {
 	return (
 		<div>
-			<Card topic="home" />
 			<div>
 				<Link href="/About">About</Link>
 			</div>
