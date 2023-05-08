@@ -5,7 +5,7 @@ const Author = () => {
   return (
     <div>
       <h1>Author page</h1>
-      {/* <ul>
+      <ul>
         <li>
           <h2>Don't Fall In Love With The City</h2>
           <p>collaboration of joe bozic's poetry and adam iverson's photography</p>
@@ -17,7 +17,7 @@ const Author = () => {
         <li>
           <Link href="https://www.mcsweeneys.net/articles/things-my-girlfriend-did-not-say-after-i-told-her-that-i-sometimes-feel-stuck">dave eggers and i are besties</Link>
         </li>
-      </ul> */}
+      </ul>
     </div>
   )
 }
