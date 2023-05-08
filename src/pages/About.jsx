@@ -7,7 +7,7 @@ const About = () => {
     <div className={styles.pagetitle}>
       <h1>aboot</h1>
       <Card topic='Aboot' />
-      <p>ten feet tall and bulletproof</p>
+      <p>i have done a little of everything and i have every intention of continuing that behaviour</p>
     </div>
   )
 }
