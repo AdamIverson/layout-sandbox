@@ -8,7 +8,7 @@ const Navbar = () => {
         <Link href="/About">About</Link>
         <Link href="https://adamiverson.github.io/">Resume</Link>
         <Link href="http://www.adamiversonphotography.com/">Photography</Link>
-        <Link href="https://www.mcsweeneys.net/articles/things-my-girlfriend-did-not-say-after-i-told-her-that-i-sometimes-feel-stuck">Author</Link>
+        <Link href="/Author">Author</Link>
     </div>
   )
 }
