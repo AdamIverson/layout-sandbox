@@ -8,7 +8,7 @@ const Author = () => {
       <ul>
         <li>
           <h2>Dont Fall In Love With The City</h2>
-          <p>collaboration of joe bozic's poetry and adam iversons photography</p>
+          <p>collaboration of joe bozic&apos;s poetry and adam iverson&apos;s photography</p>
         </li>
         <li>
           <h2>gelato for dinner</h2>
