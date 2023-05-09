@@ -9,7 +9,7 @@ export default function Card({ project }) {
         <li>{project.title}</li>
         <li>{project.tech}</li>
         <Link href={project.url}>Link to Repo</Link>
-        <Image src={project.url} height={1200} width={800} alt="image"></Image>
+        <Image src={project.image} height={1200} width={800} alt="image"></Image>
       </ul >
     </li>
   )

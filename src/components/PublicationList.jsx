@@ -4,7 +4,7 @@ import publicationData from "@/data/publicationData";
 
 const PublicationList = () => {
   const pubs = publicationData.map((pub) =>
-    <Card project={pub} />
+    <Card key={pub.title} project={pub} />
   )
   return (
     <ul>

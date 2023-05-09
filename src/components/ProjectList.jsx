@@ -4,7 +4,7 @@ import projectData from '../data/projectData.jsx'
 
 const ProjectList = () => {
   const projects = projectData.map((project) =>
-    <Card project={project} />
+    <Card project={project} key={project.title}/>
   )
   return (
     <ul>

@@ -5,7 +5,7 @@ const Developer = () => {
   return (
     <div>
       <h1>Developer Projects</h1>
-      {/* <ProjectList /> */}
+      <ProjectList />
     </div>
   )
 }
