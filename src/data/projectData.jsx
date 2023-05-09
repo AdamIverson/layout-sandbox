@@ -15,3 +15,5 @@ const projectData = [
     url: 'https://github.com/AdamIverson/Hatclub-The-Premier-Hat-Appreciation-App'
   }
 ]
+
+export default projectData;
