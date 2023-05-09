@@ -6,14 +6,20 @@ const ProjectList = () => {
     <ul>
       <li>
         <h1>Solcana Fitness</h1>
+        <h2></h2>
+        <h3>Tech: Expo/React Native/Firebase</h3>
         <Link href="https://github.com/AdamIverson/solcanaThree">Link to Repo</Link>
       </li>
       <li>
-        <p>Pet-Jet</p>
+        <h1>Pet-Jet</h1>
+        <h2></h2>
+        <h3>Tech: React</h3>
         <Link href="https://github.com/petjetprivate/pet-jet">Link to Repo</Link>
       </li>
       <li>
-        <p>hatclub</p>
+        <h1>hatclub</h1>
+        <h2></h2>
+        <h3>Tech: React</h3>
         <Link href="https://github.com/AdamIverson/Hatclub-The-Premier-Hat-Appreciation-App">Link to Repo</Link>
       </li>
     </ul>
