@@ -1,13 +1,12 @@
 import React from "react";
-// import { Document } from "react-pdf";
 
 const Resume = () => {
   return (
-    // <a href="https://adamiverson.github.io">photo</a>
-    <object
-      data="https://adamiverson.github.io"
+    <iframe
+      src="https://adamiverson.github.io"
       type="application/pdf"
-      height="500px"
+      width="800"
+      height="1000"
       alt="resume pdf"
     />
   )

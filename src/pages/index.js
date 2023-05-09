@@ -8,7 +8,7 @@ const HomePage = () => {
 				<Link href="/About">About</Link>
 			</div>
 			<div>
-				<Link href="https://adamiverson.github.io/">Resume</Link>
+				<Link href="/Resume">Resume</Link>
 			</div>
 			<div>
 				<Link href="http://www.adamiversonphotography.com/">Photography</Link>
