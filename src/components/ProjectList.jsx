@@ -1,16 +1,10 @@
 import React from "react";
-import Link from "next/link";
+import Card from "@/pages/Card.jsx";
 import projectData from '../data/projectData.jsx'
 
 const ProjectList = () => {
   const projects = projectData.map((project) =>
-    <li>
-      <ul>
-        <li>{project.title}</li>
-        <li>{project.tech}</li>
-        <Link href={project.url}>Link to Repo</Link>
-      </ul >
-    </li>
+    <Card project={project} />
   )
   return (
     <ul>
