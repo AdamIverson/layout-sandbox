@@ -11,7 +11,7 @@ const projectData = [
   },
   {
     title: 'hatclub',
-    tech: 'React',
+    tech: ['React'],
     url: 'https://github.com/AdamIverson/Hatclub-The-Premier-Hat-Appreciation-App'
   }
 ]
