@@ -3,13 +3,11 @@ import Link from "next/link";
 import Image from 'next/image';
 
 export default function Card({ project }) {
-  const [projectState, setProjectState] = useState();
+  // const [projectState, setProjectState] = useState();
 
-  useEffect(() => {
-    setProjectState(project);
-  }, [project])
-
-  console.log('********************', projectState);
+  // useEffect(() => {
+  //   setProjectState(project);
+  // }, [project])
 
   return (
     <li>
