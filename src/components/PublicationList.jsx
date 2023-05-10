@@ -1,9 +1,15 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import Card from "@/pages/Card";
 import publicationData from "@/data/publicationData";
 
 const PublicationList = () => {
-  const pubs = publicationData.map((pub) =>
+  const [publicationDataState, setPublicationDataState] = useState([]);
+
+  useEffect(() => {
+    setPublicationDataState(publicationData);
+  }, [])
+  
+  const pubs = publicationDataState.map((pub) =>
     <Card key={pub.title} project={pub} />
   )
   return (
