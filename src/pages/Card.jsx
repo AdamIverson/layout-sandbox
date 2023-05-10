@@ -7,7 +7,7 @@ export default function Card({ project }) {
 
   useEffect(() => {
     setProjectState(project);
-  })
+  }, [project])
 
   console.log('********************', projectState);
 
