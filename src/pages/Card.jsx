@@ -4,17 +4,17 @@ import Image from 'next/image';
 
 export default function Card({ project }) {
   console.log("+*+*+*+*+*+*project:", project);
-// const [test, setTest] = useState();
+const [test, setTest] = useState();
 
-// useEffect(() => {
-//   setTest(project);
-// }, []);
+useEffect(() => {
+  setTest(project);
+}, []);
 
 
   return (
     <li>
       <p>test paragraph</p>
-      <p>{project.title}</p>
+      <p>{test.title}</p>
       {/* <ul> */}
       {/* <li>{test.title}</li>
         <li>{test.tech}</li>
