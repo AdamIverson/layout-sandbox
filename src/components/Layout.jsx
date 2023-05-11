@@ -1,8 +1,8 @@
 import React from "react";
-import Header from "@/pages/Header";
-import Navbar from "@/pages/Navbar";
-import Footer from "@/pages/Footer";
-import styles from "./layout.module.css"
+import Header from "@/components/Header";
+import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
+import styles from ".//../styles/layout.module.css"
   
 const Layout = ({ children }) => {
   return (
