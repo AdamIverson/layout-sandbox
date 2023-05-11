@@ -8,20 +8,18 @@ export default function Card({ project }) {
 
   useEffect(() => {
     setTest(project);
-  }, [test]);
+  }, [project]);
 
   console.log("+*+*+*+*test", test);
 
   if (test) {
     return (
       <li>
-        {/* <p>test paragraph</p>
-        <p>{test.title}</p> */}
         <ul>
         <li>{test.title}</li>
         <li>{test.tech}</li>
         <Link href={test.url}>Link to Repo</Link>
-      {/* <Image src={test.image} height={1200} width={800} alt="image"></Image> */}
+      <Image src={test.image} height={1200} width={800} alt="image"></Image>
         {/* <li>{project.title}</li>
         <li>{project.tech}</li>
       <Link href={project.url}>Link to Repo</Link> */}
