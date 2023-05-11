@@ -1,15 +1,8 @@
-import React, { useState, useEffect } from 'react'
+import React from 'react'
 import Link from "next/link";
 import Image from 'next/image';
 
 export default function Card({ project }) {
-  // const [projectState, setProjectState] = useState();
-  
-  // useEffect(() => {
-  //   setProjectState(project);
-  // }, [project]);
-
-  // console.log('projectState:', projectState);
 
   return (
     <li>
