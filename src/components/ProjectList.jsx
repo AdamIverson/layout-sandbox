@@ -3,7 +3,8 @@ import Card from "@/pages/Card.jsx";
 import projectData from '../data/projectData.jsx'
 
 
-const ProjectList = () => {
+const ProjectList = ({ project }) => {
+  // console.log('ProjectList project:', project)
   const [projectListState, setProjectListState] = useState([])
 
   useEffect(() => {
@@ -15,6 +16,7 @@ const ProjectList = () => {
   )
   return (
     <ul>
+      {/* <li>ProjectList List Item</li> */}
       {projects}
     </ul>
   )
