@@ -4,7 +4,8 @@ import Link from 'next/link'
 const HomePage = () => {
 	return (
 		<div>
-			<div>
+			<h1>this site is under construction</h1>
+			{/* <div>
 				<Link href="/About">About</Link>
 			</div>
 			<div>
@@ -18,7 +19,7 @@ const HomePage = () => {
 			</div>
 			<div>
 				<Link href="/Developer">Developer Projects</Link>
-			</div>
+			</div> */}
 			{/* <div>
 				<Link href="https://www.letshireadamiverson.com/">let's hire</Link>
 			</div> */}
